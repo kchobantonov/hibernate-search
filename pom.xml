@@ -258,52 +258,52 @@
 
         <!-- Plugin versions -->
         <version.clean.plugin>3.3.2</version.clean.plugin>
-        <version.install.plugin>3.1.1</version.install.plugin>
+        <version.install.plugin>3.1.2</version.install.plugin>
         <version.enforcer.plugin>3.4.0</version.enforcer.plugin>
         <version.project-info.plugin>3.5.0</version.project-info.plugin>
-        <version.japicmp.plugin>0.18.3</version.japicmp.plugin>
-        <version.nexus-staging.plugin>1.6.13</version.nexus-staging.plugin>
-        <version.deploy.plugin>3.1.1</version.deploy.plugin>
-        <version.gpg.plugin>3.1.0</version.gpg.plugin>
-        <version.flatten-maven-plugin>1.5.0</version.flatten-maven-plugin>
-        <version.assembly.plugin>3.6.0</version.assembly.plugin>
-        <version.buildhelper.plugin>3.5.0</version.buildhelper.plugin>
+        <version.japicmp.plugin>0.21.2</version.japicmp.plugin>
+        <version.nexus-staging.plugin>1.7.0</version.nexus-staging.plugin>
+        <version.deploy.plugin>3.1.2</version.deploy.plugin>
+        <version.gpg.plugin>3.2.4</version.gpg.plugin>
+        <version.flatten-maven-plugin>1.6.0</version.flatten-maven-plugin>
+        <version.assembly.plugin>3.7.1</version.assembly.plugin>
+        <version.buildhelper.plugin>3.6.0</version.buildhelper.plugin>
         <version.checkstyle.plugin>3.3.1</version.checkstyle.plugin>
         <version.bundle.plugin>5.1.9</version.bundle.plugin>
         <!-- Needing 3.6.2 at least because of MCOMPILER-294 -->
         <!-- Cannot update to 3.12 because of https://issues.apache.org/jira/browse/MCOMPILER-567 -->
-        <version.compiler.plugin>3.11.0</version.compiler.plugin>
+        <version.compiler.plugin>3.13.0</version.compiler.plugin>
         <version.dependency.plugin>3.6.1</version.dependency.plugin>
         <!-- Check dependencies for security vulnerabilities -->
-        <version.dependency-check.plugin>9.0.7</version.dependency-check.plugin>
-        <version.exec.plugin>3.1.1</version.exec.plugin>
-        <version.forbiddenapis.plugin>3.6</version.forbiddenapis.plugin>
-        <version.jandex.plugin>3.1.6</version.jandex.plugin>
+        <version.dependency-check.plugin>9.2.0</version.dependency-check.plugin>
+        <version.exec.plugin>3.3.0</version.exec.plugin>
+        <version.forbiddenapis.plugin>3.7</version.forbiddenapis.plugin>
+        <version.jandex.plugin>3.2.0</version.jandex.plugin>
         <version.maven.injection.plugin>1.0.2</version.maven.injection.plugin>
-        <version.jar.plugin>3.3.0</version.jar.plugin>
+        <version.jar.plugin>3.4.1</version.jar.plugin>
         <version.javadoc.plugin>3.6.3</version.javadoc.plugin>
         <version.jdeps.plugin>0.5.1</version.jdeps.plugin>
         <version.processor.plugin>4.5</version.processor.plugin>
         <version.resources.plugin>3.3.1</version.resources.plugin>
-        <version.shade.plugin>3.5.1</version.shade.plugin>
-        <version.source.plugin>3.3.0</version.source.plugin>
+        <version.shade.plugin>3.5.3</version.shade.plugin>
+        <version.source.plugin>3.3.1</version.source.plugin>
         <!-- Surefire versions are a minefield of bugs: be careful with upgrades -->
-        <version.surefire.plugin>3.2.3</version.surefire.plugin>
-        <version.surefire.plugin.java-version.asm>9.6</version.surefire.plugin.java-version.asm>
-        <version.jacoco.plugin>0.8.11</version.jacoco.plugin>
-        <version.com.buschmais.jqassistant.plugin>2.0.9</version.com.buschmais.jqassistant.plugin>
-        <version.moditect.plugin>1.1.0</version.moditect.plugin>
-        <version.sonar.plugin>3.10.0.2594</version.sonar.plugin>
+        <version.surefire.plugin>3.2.5</version.surefire.plugin>
+        <version.surefire.plugin.java-version.asm>9.7</version.surefire.plugin.java-version.asm>
+        <version.jacoco.plugin>0.8.12</version.jacoco.plugin>
+        <version.com.buschmais.jqassistant.plugin>2.2.1</version.com.buschmais.jqassistant.plugin>
+        <version.moditect.plugin>1.2.1.Final</version.moditect.plugin>
+        <version.sonar.plugin>3.11.0.3922</version.sonar.plugin>
         <version.scripting.plugin>3.0.0</version.scripting.plugin>
         <version.org.apache.groovy.groovy-jsr223>4.0.13</version.org.apache.groovy.groovy-jsr223>
         <version.com.puppycrawl.tools.checkstyle>10.9.3</version.com.puppycrawl.tools.checkstyle>
         <version.versions.plugin>2.16.2</version.versions.plugin>
-        <version.maven-wrapper-plugin>3.2.0</version.maven-wrapper-plugin>
-        <version.impsort-maven-plugin>1.9.0</version.impsort-maven-plugin>
+        <version.maven-wrapper-plugin>3.3.2</version.maven-wrapper-plugin>
+        <version.impsort-maven-plugin>1.10.0</version.impsort-maven-plugin>
         <version.formatter-maven-plugin>2.23.0</version.formatter-maven-plugin>
         <version.org.eclipse.m2e.lifecycle-mapping>1.0.0</version.org.eclipse.m2e.lifecycle-mapping>
         <version.sisu-maven-plugin>0.9.0.M2</version.sisu-maven-plugin>
-        <gitflow-incremental-builder.version>4.5.2</gitflow-incremental-builder.version>
+        <gitflow-incremental-builder.version>4.5.3</gitflow-incremental-builder.version>
 
         <!-- Repository Deployment URLs -->
 
@@ -336,15 +336,15 @@
                 Note the version of ECJ is overridden because the one bundled with the latest plexus-compiler version
                 is outdated and leads to compilation errors.
          -->
-        <version.org.codehaus.plexus.plexus-compiler.compiler-eclipse>2.14.1</version.org.codehaus.plexus.plexus-compiler.compiler-eclipse>
-        <version.org.eclipse.jdt.ecj>3.36.0</version.org.eclipse.jdt.ecj>
+        <version.org.codehaus.plexus.plexus-compiler.compiler-eclipse>2.15.0</version.org.codehaus.plexus.plexus-compiler.compiler-eclipse>
+        <version.org.eclipse.jdt.ecj>3.37.0</version.org.eclipse.jdt.ecj>
 
         <!-- Asciidoctor -->
 
-        <version.asciidoctor.plugin>2.2.4</version.asciidoctor.plugin>
+        <version.asciidoctor.plugin>3.0.0</version.asciidoctor.plugin>
         <version.org.hibernate.infra.hibernate-asciidoctor-theme>2.0.0.Final</version.org.hibernate.infra.hibernate-asciidoctor-theme>
-        <version.org.asciidoctor.asciidoctorj>2.5.10</version.org.asciidoctor.asciidoctorj>
-        <version.org.asciidoctor.asciidoctorj-pdf>2.3.9</version.org.asciidoctor.asciidoctorj-pdf>
+        <version.org.asciidoctor.asciidoctorj>2.5.13</version.org.asciidoctor.asciidoctorj>
+        <version.org.asciidoctor.asciidoctorj-pdf>2.3.15</version.org.asciidoctor.asciidoctorj-pdf>
 
         <!--
             Defines what to do with dependency management section of the flattened pom.
