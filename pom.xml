@@ -265,27 +265,27 @@
         <maven.compiler.testTarget>${maven.compiler.testRelease}</maven.compiler.testTarget>
 
         <!-- Plugin versions -->
-        <version.clean.plugin>3.4.0</version.clean.plugin>
-        <version.install.plugin>3.1.3</version.install.plugin>
+        <version.clean.plugin>3.4.1</version.clean.plugin>
+        <version.install.plugin>3.1.4</version.install.plugin>
         <version.enforcer.plugin>3.5.0</version.enforcer.plugin>
-        <version.project-info.plugin>3.8.0</version.project-info.plugin>
+        <version.project-info.plugin>3.9.0</version.project-info.plugin>
         <version.japicmp.plugin>0.23.1</version.japicmp.plugin>
         <version.nexus-staging.plugin>1.7.0</version.nexus-staging.plugin>
-        <version.deploy.plugin>3.1.3</version.deploy.plugin>
+        <version.deploy.plugin>3.1.4</version.deploy.plugin>
         <version.gpg.plugin>3.2.7</version.gpg.plugin>
-        <version.flatten-maven-plugin>1.6.0</version.flatten-maven-plugin>
+        <version.flatten-maven-plugin>1.7.0</version.flatten-maven-plugin>
         <version.assembly.plugin>3.7.1</version.assembly.plugin>
         <version.buildhelper.plugin>3.6.0</version.buildhelper.plugin>
         <version.checkstyle.plugin>3.6.0</version.checkstyle.plugin>
         <version.bundle.plugin>6.0.0</version.bundle.plugin>
-        <version.compiler.plugin>3.13.0</version.compiler.plugin>
+        <version.compiler.plugin>3.14.0</version.compiler.plugin>
         <version.dependency.plugin>3.8.1</version.dependency.plugin>
         <!-- Check dependencies for security vulnerabilities -->
-        <version.dependency-check.plugin>12.0.1</version.dependency-check.plugin>
+        <version.dependency-check.plugin>12.1.0</version.dependency-check.plugin>
         <version.exec.plugin>3.5.0</version.exec.plugin>
         <version.forbiddenapis.plugin>3.8</version.forbiddenapis.plugin>
         <!-- Make sure that upgraded Jandex plugin aligns with the Jandex version imported from the ORM platform pom -->
-        <version.jandex.plugin>3.2.3</version.jandex.plugin>
+        <version.jandex.plugin>3.2.7</version.jandex.plugin>
         <version.maven.injection.plugin>1.0.2</version.maven.injection.plugin>
         <version.jar.plugin>3.4.2</version.jar.plugin>
         <version.javadoc.plugin>3.11.2</version.javadoc.plugin>
@@ -295,21 +295,21 @@
         <version.shade.plugin>3.6.0</version.shade.plugin>
         <version.source.plugin>3.3.1</version.source.plugin>
         <!-- Surefire versions are a minefield of bugs: be careful with upgrades -->
-        <version.surefire.plugin>3.5.2</version.surefire.plugin>
-        <version.surefire.plugin.java-version.asm>9.7.1</version.surefire.plugin.java-version.asm>
+        <version.surefire.plugin>3.5.3</version.surefire.plugin>
+        <version.surefire.plugin.java-version.asm>9.8</version.surefire.plugin.java-version.asm>
         <version.jacoco.plugin>0.8.12</version.jacoco.plugin>
-        <version.com.buschmais.jqassistant.plugin>2.5.0</version.com.buschmais.jqassistant.plugin>
+        <version.com.buschmais.jqassistant.plugin>2.6.0</version.com.buschmais.jqassistant.plugin>
         <version.moditect.plugin>1.2.2.Final</version.moditect.plugin>
-        <version.sonar.plugin>5.0.0.4389</version.sonar.plugin>
+        <version.sonar.plugin>5.1.0.4751</version.sonar.plugin>
         <version.scripting.plugin>3.0.0</version.scripting.plugin>
         <version.org.apache.groovy.groovy-jsr223>4.0.13</version.org.apache.groovy.groovy-jsr223>
-        <version.com.puppycrawl.tools.checkstyle>10.21.1</version.com.puppycrawl.tools.checkstyle>
+        <version.com.puppycrawl.tools.checkstyle>10.22.0</version.com.puppycrawl.tools.checkstyle>
         <version.versions.plugin>2.18.0</version.versions.plugin>
         <version.maven-wrapper-plugin>3.3.2</version.maven-wrapper-plugin>
         <version.org.eclipse.m2e.lifecycle-mapping>1.0.0</version.org.eclipse.m2e.lifecycle-mapping>
         <version.sisu-maven-plugin>0.9.0.M3</version.sisu-maven-plugin>
         <version.gitflow-incremental-builder>4.5.4</version.gitflow-incremental-builder>
-        <version.spotless-maven-plugin>2.44.2</version.spotless-maven-plugin>
+        <version.spotless-maven-plugin>2.44.3</version.spotless-maven-plugin>
         <version.maven-antrun-plugin>3.1.0</version.maven-antrun-plugin>
 
         <!-- Repository Deployment URLs -->
@@ -345,11 +345,11 @@
                 is outdated and leads to compilation errors.
          -->
         <version.org.codehaus.plexus.plexus-compiler.compiler-eclipse>2.14.2</version.org.codehaus.plexus.plexus-compiler.compiler-eclipse>
-        <version.org.eclipse.jdt.ecj>3.40.0</version.org.eclipse.jdt.ecj>
+        <version.org.eclipse.jdt.ecj>3.41.0</version.org.eclipse.jdt.ecj>
 
         <!-- Asciidoctor -->
 
-        <version.asciidoctor.plugin>3.1.1</version.asciidoctor.plugin>
+        <version.asciidoctor.plugin>3.2.0</version.asciidoctor.plugin>
         <version.org.hibernate.infra.hibernate-asciidoctor-theme>5.0.2.Final</version.org.hibernate.infra.hibernate-asciidoctor-theme>
         <version.org.asciidoctor.asciidoctorj>3.0.0</version.org.asciidoctor.asciidoctorj>
         <version.org.asciidoctor.asciidoctorj-pdf>2.3.19</version.org.asciidoctor.asciidoctorj-pdf>
