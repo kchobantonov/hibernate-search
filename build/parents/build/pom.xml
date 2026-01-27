@@ -127,21 +127,21 @@
 
         <!-- >>> WildFly dependencies -->
         <!-- This is used to generate a link to the WildFly documentation -->
-        <version.org.wildfly>38.0.0.Final</version.org.wildfly>
+        <version.org.wildfly>39.0.0.Final</version.org.wildfly>
 
         <!-- Test dependencies -->
 
         <!-- >>> Common -->
-        <version.log4j>2.25.2</version.log4j>
+        <version.log4j>2.25.3</version.log4j>
         <version.junit-jupiter>5.13.4</version.junit-jupiter>
         <version.junit-platform-suite-engine>1.10.0</version.junit-platform-suite-engine>
         <version.org.osgi.core>6.0.0</version.org.osgi.core>
         <!-- Make sure to update Ryuk container version in `ryuk.Dockerfile` whenever updating testcontainers to align it with the lib. -->
-        <version.testcontainers>2.0.1</version.testcontainers>
+        <version.testcontainers>2.0.3</version.testcontainers>
 
         <version.org.hamcrest>3.0</version.org.hamcrest>
-        <version.org.mockito>5.20.0</version.org.mockito>
-        <version.org.assertj.assertj-core>3.27.6</version.org.assertj.assertj-core>
+        <version.org.mockito>5.21.0</version.org.mockito>
+        <version.org.assertj.assertj-core>3.27.7</version.org.assertj.assertj-core>
         <!-- NOTE: Remove a Dependabot rule for 4.2.1 once the upgrade can be applied -->
         <version.org.awaitily>4.3.0</version.org.awaitily>
         <version.org.skyscreamer.jsonassert>1.5.1</version.org.skyscreamer.jsonassert>
@@ -157,14 +157,14 @@
                 - remove and generate the files in mapper/orm-outbox-polling/src/main/avro/generated
         -->
         <version.org.apache.avro>1.12.1</version.org.apache.avro>
-        <version.org.jboss.weld>5.1.6.Final</version.org.jboss.weld>
+        <version.org.jboss.weld>5.1.7.Final</version.org.jboss.weld>
 
         <!-- >>> JDBC Drivers -->
         <version.com.h2database>2.4.240</version.com.h2database>
-        <version.org.postgresql>42.7.8</version.org.postgresql>
-        <version.org.mariadb.jdbc>3.5.6</version.org.mariadb.jdbc>
+        <version.org.postgresql>42.7.9</version.org.postgresql>
+        <version.org.mariadb.jdbc>3.5.7</version.org.mariadb.jdbc>
         <version.mysql.mysql-connector-j>9.5.0</version.mysql.mysql-connector-j>
-        <version.com.ibm.db2.jcc>12.1.2.0</version.com.ibm.db2.jcc>
+        <version.com.ibm.db2.jcc>12.1.3.0</version.com.ibm.db2.jcc>
         <version.com.oracle.database.jdbc>23.26.0.0.0</version.com.oracle.database.jdbc>
         <version.com.microsoft.sqlserver.mssql-jdbc>13.2.1.jre11</version.com.microsoft.sqlserver.mssql-jdbc>
 
@@ -175,17 +175,17 @@
         <version.com.ibm.jbatch>2.1.1</version.com.ibm.jbatch>
 
         <!-- >>> Jakarta Batch: JBeret SE dependencies -->
-        <version.org.jboss.marshalling>2.2.3.Final</version.org.jboss.marshalling>
+        <version.org.jboss.marshalling>2.3.0</version.org.jboss.marshalling>
         <version.org.wildfly.security.wildfly-security-manager>1.1.2.Final</version.org.wildfly.security.wildfly-security-manager>
 
         <!-- >>> Spring integration tests -->
         <!-- When updating Spring Boot check if it supports JDK24 and enable testing with it if so (see testWithJdk24 profile). -->
         <!-- When updating to SB 4 make sure to update the main Jenkinsfile to include the showcase ITs in the non-default builds -->
-        <version.org.springframework.boot>3.5.0</version.org.springframework.boot>
+        <version.org.springframework.boot>4.0.2</version.org.springframework.boot>
         <!-- Spring Boot 3 JTA starter and related libs version: -->
-        <version.dev.snowdrop>3.5.0</version.dev.snowdrop>
+        <version.dev.snowdrop>4.0.0</version.dev.snowdrop>
 
-        <version.jsoup>1.21.2</version.jsoup>
+        <version.jsoup>1.22.1</version.jsoup>
         <version.snakeyaml>2.5</version.snakeyaml>
 
         <!-- Whether javadoc warnings should fail the build -->
